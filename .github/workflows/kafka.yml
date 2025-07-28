@@ -1,4 +1,4 @@
-name: Kafka CI-CD Pipeline
+name: Kafka/Zookeeper CI-CD Pipeline 
 
 on:
   release:
