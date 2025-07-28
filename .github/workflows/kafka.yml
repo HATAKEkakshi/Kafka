@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            hatakekakshihk/kafka:latest
-            hatakekakshihk/kafka:${{ github.event.release.tag_name }}
+            hatakekakashihk/kafka:latest
+            hatakekakashihk/kafka:${{ github.event.release.tag_name }}
