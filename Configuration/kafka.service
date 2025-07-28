@@ -1,0 +1,15 @@
+[Unit]
+Description=Start Apache Kafka Server
+After=network-online.target zookeeper.service
+Requires=network-online.target zookeeper.service
+
+[Service]
+Type=simple
+ExecStart=/root/kafka_2.13-3.9.0/bin/kafka-server-start.sh /root/kafka_2.13-3.9.0/config/server.properties
+Restart=always
+RestartSec=3
+User=root
+WorkingDirectory=/root/kafka_2.13-3.9.0
+
+[Install]
+WantedBy=multi-user.target

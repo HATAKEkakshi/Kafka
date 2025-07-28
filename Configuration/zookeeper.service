@@ -1,0 +1,14 @@
+[Unit]
+Description=Apache ZooKeeper Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/kafka_2.13-3.9.0/bin/zookeeper-server-start.sh /root/kafka_2.13-3.9.0/config/zookeeper.properties
+Restart=always
+RestartSec=5
+User=root
+WorkingDirectory=/root/kafka_2.13-3.9.0
+
+[Install]
+WantedBy=multi-user.target
