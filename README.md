@@ -6,6 +6,7 @@
 [![Zookeeper Version](https://img.shields.io/badge/Zookeeper-3.8.4-yellow)](https://zookeeper.apache.org/)
 [![Java](https://img.shields.io/badge/Java-21-red)](https://openjdk.java.net/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com)
+[![Version](https://img.shields.io/badge/Version-v1.0.0-blue)](https://github.com/your-username/kafka-docker/releases)
 
 A production-ready Docker container for Apache Kafka with Zookeeper, featuring configurable host settings and easy deployment.
 
@@ -24,8 +25,8 @@ docker run -p 2181:2181 -p 9092:9092 -e KAFKA_HOST=your-host.com kafka-zookeeper
 
 ### Pull from Docker Hub
 ```bash
-docker pull your-username/kafka-zookeeper:latest
-docker run -p 2181:2181 -p 9092:9092 -e KAFKA_HOST=localhost your-username/kafka-zookeeper:latest
+docker pull hatakekakashihk/kafka:latest
+docker run -p 2181:2181 -p 9092:9092 -e KAFKA_HOST=localhost hatakekakashihk/kafka:latest
 ```
 
 ## 📋 Features
