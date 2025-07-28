@@ -1,4 +1,4 @@
-name: Kafka CI-CD
+name: Kafka CI-CD Pipeline
 
 on:
   release:
