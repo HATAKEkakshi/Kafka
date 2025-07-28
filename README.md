@@ -233,5 +233,5 @@ If this project helped you, please give it a ⭐ on GitHub!
 
 ---
 
-**Maintained by:** [Your Name](https://github.com/your-username)  
-**Last Updated:** $(date +%Y-%m-%d)
+**Maintained by:** [Hemant Kumar](https://github.com/HATAKEkakshi)  
+**Last Updated:** $(2025-07-28)
