@@ -63,7 +63,7 @@ docker run -d \
   -p 2181:2181 \
   -p 9092:9092 \
   -e KAFKA_HOST=localhost \
-  your-username/kafka-zookeeper:latest
+  hatakekakashihk/kafka:latest
 ```
 
 ### Production Deployment
@@ -75,7 +75,7 @@ docker run -d \
   -e KAFKA_HOST=your-production-host.com \
   --restart unless-stopped \
   -v kafka-data:/opt/kafka/data \
-  your-username/kafka-zookeeper:latest
+  hatakekakashihk/kafka:latest
 ```
 
 ### Docker Compose
@@ -83,7 +83,7 @@ docker run -d \
 version: '3.8'
 services:
   kafka:
-    image: your-username/kafka-zookeeper:latest
+    image: hatakekakashihk/kafka:latest
     ports:
       - "2181:2181"
       - "9092:9092"
